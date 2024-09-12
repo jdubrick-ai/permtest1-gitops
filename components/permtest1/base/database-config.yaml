@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: permtest1-database-config
+data:
+  VECTORDB_HOST: "permtest1-database"
+  VECTORDB_PORT: ""
